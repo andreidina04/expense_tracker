@@ -1,4 +1,4 @@
-# 💰 ExpenseTracker Pro
+# 💰 ExpenseTracker v1.0
 
 A modern, high-performance desktop application for personal finance management. Built with **Python**, **MySQL** and **CustomTkinter**, this tool helps users track income and expenses with a sleek, dark-themed interface and real-time database synchronization.
 
@@ -35,9 +35,9 @@ Bash
 `pip install -r requirements.txt`
 Database Configuration:
 
-Create a MySQL database named finance_tracker.
+↦ Create a MySQL database named finance_tracker.
 
-Run the following SQL to create the tables:
+↦ Run the following SQL to create the tables:
 
 SQL
 `CREATE TABLE users (
@@ -56,7 +56,7 @@ SQL
     FOREIGN KEY (user_id) REFERENCES users(id)
 );`
 Environment Variables:
-Create a .env file in the root directory and add your credentials:
+↦ Create a .env file in the root directory and add your credentials:
 
 Code snippet
 `DB_HOST=localhost
@@ -69,4 +69,4 @@ Bash
 `python main.py`
 
 🛡️ Security Note
-This project uses .gitignore to ensure that sensitive files like .env and __pycache__ are never uploaded to the public repository.
+↦ This project uses .gitignore to ensure that sensitive files like .env and __pycache__ are never uploaded to the public repository.
