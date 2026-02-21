@@ -2,6 +2,8 @@
 
 A modern, high-performance desktop application for personal finance management. Built with **Python**, **MySQL** and **CustomTkinter**, this tool helps users track income and expenses with a sleek, dark-themed interface and real-time database synchronization.
 
+![python_4BnNhZ1cKF](https://github.com/user-attachments/assets/db8a733e-7fc8-4fca-b68a-9f19448818bb)
+
 ## 🌟 Key Features
 
 - **User Authentication**: Secure Login and Registration system with input validation (email format & password matching).
